@@ -109,7 +109,7 @@ sudo journalctl -f -u google-startup-scripts.service
         sslRootCAPath = <path to Root CA>
         sslPassword = <private key Password>
         ```
-      - Splunk to Splunk TLS (On all Splunk servers):
+  - Splunk to Splunk TLS (On all Splunk servers):
         ```bash
         [sslConfig]
         enableSplunkdSSL = true
