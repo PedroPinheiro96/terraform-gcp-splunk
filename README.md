@@ -110,14 +110,14 @@ sudo journalctl -f -u google-startup-scripts.service
         sslPassword = <private key Password>
         ```
   - Splunk to Splunk TLS (On all Splunk servers):
-        ```bash
-        [sslConfig]
-        enableSplunkdSSL = true
-        sslRootCAPath = <path to Root CA>
-        serverCert = <path to cert>
-        sslPassword = <private key Password>
-        ``` 
-          `( "enableSplunkWebSSL=true" already enabled through the Deployment Server)`
+    ```bash
+    [sslConfig]
+    enableSplunkdSSL = true
+    sslRootCAPath = <path to Root CA>
+    serverCert = <path to cert>
+    sslPassword = <private key Password>
+    ``` 
+    `( "enableSplunkWebSSL=true" already enabled through the Deployment Server)`
 
 ## Environment Overview After Deployment
 
