@@ -1,0 +1,9 @@
+.terraform*
+.credentials/
+.crash/
+terraform.*
+*.tfstate*
+*.log
+*.json
+override.tf
+override.tf.json
